@@ -708,3 +708,13 @@ img {
   visibility: hidden;
   pointer-events: none;
 }
+
+.modal-title {
+  font-style: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03;
+  color: var(--primary-color);
+}
