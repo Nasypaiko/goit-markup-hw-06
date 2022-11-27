@@ -425,7 +425,16 @@
       </div>
       <div class="modal-field">
         <label for="user-text" class="input-label">Коментар</label>
-        <textarea name="user-text" class="modal-comment" id="user-text"></textarea>
+        <textarea name="user-text" class="modal-comment" id="user-text" placeholder="Введіть текст"></textarea>
+      </div>
+      <div class="modal-field privacy">
+        <input type="checkbox" name="privacy" id="privacy" class="modal-check visually-hidden"/>
+        <label for="privacy" class="privacy-text">
+          <span class="privacy-wrap">
+            Погоджуюся з розсилкою та приймаю
+            <a class="privacy-terms" href="#">Умови договору</a>
+          </span>
+        </label>
       </div>
       <button type="submit" class="modal-button">Відправити</button>
      </form>  
