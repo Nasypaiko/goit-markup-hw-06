@@ -606,7 +606,9 @@ img {
   line-height: 1.25;
   letter-spacing: 0.03;
   font-weight: 400;
+  outline: transparent;
 }
+
 
 /* ------Portfolio.html------ */
 
@@ -852,7 +854,8 @@ img {
   align-items: center;
   text-align: center;
   margin-bottom: 30px;
-  /* margin-left: 15px; */
+  justify-content: center;
+  
 }
 
 .privacy-text::before {
