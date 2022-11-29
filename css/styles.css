@@ -497,6 +497,7 @@ img {
 
 .container-basement {
   display: flex;
+  align-items: baseline;
 }
 
 .join-footer {
@@ -549,7 +550,8 @@ img {
 
 .footer-email {
   padding-top: 72px;
-  padding-left: 93px;
+  padding-bottom: 94px;
+  margin-left: 93px;
 }
 
 .title-email {
@@ -562,7 +564,7 @@ img {
   margin-bottom: 20px;
 }
 
-.subscribes-email {
+.subscribe-email {
   display: flex;
 }
 
@@ -855,7 +857,6 @@ img {
   text-align: center;
   margin-bottom: 30px;
   justify-content: center;
-  
 }
 
 .privacy-text::before {
@@ -900,6 +901,7 @@ img {
   border: none;
 }
 
-.modal-button:active {
+.modal-button:active,
+.modal-button:hover {
   background-color: #188ce8;
 }
