@@ -901,7 +901,6 @@ img {
   border: none;
 }
 
-.modal-button:active,
 .modal-button:hover {
   background-color: #188ce8;
 }
