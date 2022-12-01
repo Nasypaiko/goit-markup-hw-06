@@ -125,7 +125,7 @@ img {
   padding-bottom: 32px;
   display: flex;
   align-items: center;
-  padding-bottom: 32p
+  padding-bottom: 32p;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -392,7 +392,6 @@ img {
 .command-icons-link:hover .command-icons-icon {
   fill: #ffffff;
 }
-
 
 /* Постоянные клиенты */
 
